@@ -202,20 +202,19 @@ Moderate flexibility on commercial success, as it can be defined in many way, su
 ## Assumptions
 | **Ref.No** | **Assumption Description** |
 | --- | --- |
-| AO1 | New competitor entering vehicle battery swap market|
-| AO2 | Electricity price hike after business launched |
-| AO3 | Reduction in battery supply right before business launch |
-| AO4 | Funder withdraw during development phase |
-| AO5 | Change of direction in vehicle power supply |
-| AO6 | Petrol station does not accept battery swap project |
-| AO7 | Change of battery type demand after business launched |
+| A01 | New competitor entering vehicle battery swap market|
+| A02 | Electricity price hike after business launched |
+| A03 | Reduction in battery supply right before business launch |
+| A04 | Funder withdraw during development phase |
+| A05 | Change of direction in vehicle power supply |
+| A06 | Petrol station does not accept battery swap project |
+| A07 | Change of battery type demand after business launched |
 
 ## Constraints
-<!-- TODO: Fix up table -->
-| **Ref.No** | **Constraint Description** |
-| --- | --- |
-| CO1 | Budget is valid for only the current calendar year and may not be re-approved in the next year |
-| CO2 | Any newer model of battery will not be supported for coming year of launch |
-| CO3 | Self contained system are not supported by places with limited electricity supply |
-| CO4 | Plan of development only cover up to cities and not rural area |
-| CO5 | User base are too small to setup the planned number of system in the area |
+| **Ref.No** |                                   **Constraint Description**                                   |
+| ---------- | ---------------------------------------------------------------------------------------------- |
+| C01        | Budget is valid for only the current calendar year and may not be re-approved in the next year |
+| C02        | Any newer model of battery will not be supported for coming year of launch                     |
+| C03        | Self contained system are not supported by places with limited electricity supply              |
+| C04        | Plan of development only cover up to cities and not rural area                                 |
+| C05        | User base are too small to setup the planned number of system in the area                      |
