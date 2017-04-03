@@ -28,6 +28,7 @@ We want to keep service stations using our systems by providing good technical s
 Developing a tracking system and being able to provide live statistics on frequency and location of battery swaps allows for predictions of peak usage periods. Using advanced prediction software, information can be provided to station management to ensure sufficient staff are available, and potentially move charged batteries from areas of low to high demand.\
 We hope to also provide information on battery availability (present and forecasted) to eVehicle owners. This should help balance loads if customers can see which locations are available.
 
+\newpage
 # Project Vision
 The overall goal for the system is to create a battery swapping system which is centrally controlled and allows for an overarching program to send and receive information to all the battery swap stations. This system should have redundancy fallbacks and fail safes in case there is an error in the system. This project will be completed when no major software updates are rolled out and only minor OTA (Over The Air) updates are sent out for patches and overlooked bugs.\
 The system should also be able to easily handle expansion of our business -- introducing new stations to the system and new batteries to circulation. This should be able done through a maintenance access website. This should be a simple as possible and allows for immediate use and synchronization. The station owner should also have access to a control website so they can turn on and off different individual stations and report any bugs they have. This will ultimately help streamline any problems that occur and ensure that there is a record of any actions that get taken and minimize any physical input to the system.
@@ -57,6 +58,7 @@ Our Product
 ## Project Goal
 Provide accurate and up-to-date data to all people involved in managing our network of battery swapping systems, both in our company and our partner service stations.
 
+\newpage
 # Objectives
 The following objectives have been agreed to meet the SMART criteria in meetings with the development team. Each represents a core feature of our system, which will be operational upon delivery of the completed product. Our development team agrees that they are achievable within this time frame.
 
@@ -81,6 +83,7 @@ As the batteries themselves are built to an IEEE standard, data from batteries (
 ## Provide usage information to generate bills
 Our finance system needs to know how much to charge each partner service station. This is based on a flat fee plus cost per battery swap. The system must provide this information so accurate billing occurs.
 
+\newpage
 # Business Benefits
 ## Better Planning
 If we can see where demand is greatest, we can plan expansion more efficiently.
@@ -97,6 +100,7 @@ By implementing a JIRA-like issue tracker for our maintenance teams, our technic
 ## Improved Security
 Our business model will always be vulnerable to eVehicle owners swapping a battery that is near end of life with a new battery, or tampering with a battery. If we detect criminal misconduct, this system will, as part of tracking swaps, be able to provide us with the car registration, which we can then take to police. To address privacy concerns, we do not wish to track individuals.
 
+\newpage
 # Scope
 ## In Scope
 - Tracking battery history including location (while outside of cars), charge, life remaining
@@ -120,6 +124,7 @@ Our business model will always be vulnerable to eVehicle owners swapping a batte
 - Integration of the public availability website with Google Maps. This will be considered for future releases.
 - Ongoing hosting of the product. This will be decided after receiving an estimate of ongoing complexity and costs from the development team.
 
+\newpage
 # Stakeholders
 ## Sponsor
 - Daniel Fitzmaurice
@@ -175,6 +180,7 @@ Course staff -- Leggy/Richard
 - eVehicle manufacturers
     - Any changes to the IEEE standard will cause a change in technical requirements
 
+\newpage
 # Success Criteria
 ## Scope
 Minor Flexibility. While scope creep is inevitable in any software project, we believe we have a well defined and agreed upon scope that can be delivered. Given that being first to market is a priority, the first release should target the scope as defined in this document.
@@ -203,6 +209,7 @@ Development team can have moderate flexibility. Having the team members changed 
 ## Other
 Moderate flexibility on commercial success, as it can be defined in many ways, such as company growth, meeting company goals and objective, good reputation, maintaining good customer relationship or making profit. Striking in any one of these equal to a success in commercial.
 
+\newpage
 # Assumptions and Constraints
 ## Assumptions
 |     **Ref.No**     |                                                            **Assumption Description**                                                            |
@@ -225,5 +232,6 @@ Moderate flexibility on commercial success, as it can be defined in many ways, s
 | C04        | Ongoing funding for this system is based on short-term success. If we are not first to market we will struggle to attract service stations |
 | C05        | User base are too small to setup the planned number of system in the area                                                                  |
 
+\newpage
 # References
 This page is intentionally left blank. Refer to assumption \hyperref[cll:A08]{A08}
