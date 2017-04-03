@@ -34,7 +34,7 @@
 \titleformat{\section}{\bfseries\primary\Large}{\thesection.}{0.75em}{#1\quad\vrulefill{0.12em}}
 \titlespacing*{\section}{0em}{3em}{0em}
 \titleformat{\subsection}{\bfseries\primary\large}{}{0em}{#1}
-\titlespacing*{\subsection}{0em}{0em}{0em}
+\titlespacing*{\subsection}{0em}{1em}{0em}
 \def\myfirstletter#1{\primary#1\black}
 \DeclareRobustCommand{\FirstPrimaryLetter}[1]{\myfirstletter #1}
 \titleformat{\subsubsection}[hang]{\bfseries\large}{\thesubsubsection.}{0em}{\quad\FirstPrimaryLetter#1}
