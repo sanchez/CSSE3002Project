@@ -4,7 +4,7 @@ lastname: Lastname
 number: 43961229
 code: CSSE3002
 course: The Software Process
-title: Lecture Notes
+title: Project Charter
 toc: toc
 headrule: 0.12em
 figPrefix: "Figure "
